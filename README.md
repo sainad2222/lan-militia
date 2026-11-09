@@ -5,7 +5,6 @@
 **A 2D jetpack shooter for friends on the same Wi-Fi.**
 One laptop hosts. Everyone else plays in their phone's browser. No app, no account, no internet.
 
-[![CI](https://github.com/sainad2222/lan-militia/actions/workflows/ci.yml/badge.svg)](https://github.com/sainad2222/lan-militia/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 ![Node 22+](https://img.shields.io/badge/node-22%2B-339933)
 ![Client size](https://img.shields.io/badge/client-18%20KB-f2b63c)

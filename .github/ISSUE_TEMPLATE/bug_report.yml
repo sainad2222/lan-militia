@@ -1,0 +1,39 @@
+name: Bug report
+description: Something doesn't work or feels wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host laptop
+      placeholder: e.g. Windows 11, Node 24.1
+    validations:
+      required: true
+  - type: input
+    id: players
+    attributes:
+      label: Player devices and browsers
+      placeholder: e.g. Pixel 8 Chrome, iPhone 15 Safari
+    validations:
+      required: true
+  - type: input
+    id: hud
+    attributes:
+      label: Ping and FPS from the HUD (for lag issues)
+      placeholder: e.g. 4 ms, 60 fps
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network
+      options:
+        - Home Wi-Fi router
+        - Phone hotspot
+        - Laptop hotspot
+        - Other

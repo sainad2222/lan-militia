@@ -1,0 +1,36 @@
+{
+  "name": "lan-militia",
+  "version": "0.1.0",
+  "description": "A 2D jetpack shooter for friends on the same Wi-Fi. A laptop hosts, everyone plays in their phone's browser.",
+  "license": "Apache-2.0",
+  "author": "Sainath Singineedi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainad2222/lan-militia.git"
+  },
+  "homepage": "https://github.com/sainad2222/lan-militia#readme",
+  "bugs": "https://github.com/sainad2222/lan-militia/issues",
+  "keywords": ["game", "multiplayer", "lan", "websocket", "browser-game", "shooter", "jetpack"],
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node dist/server.js",
+    "test": "node build.mjs --tests && node --test \"dist/tests/*.test.js\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "ws": "^8.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/qrcode-terminal": "^0.12.2",
+    "@types/ws": "^8.18.2",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  }
+}

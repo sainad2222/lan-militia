@@ -1,0 +1,16 @@
+name: Idea or feature
+description: Weapons, maps, modes, controls, anything
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should change, and why would it make the game more fun?
+    validations:
+      required: true
+  - type: textarea
+    id: sketch
+    attributes:
+      label: Sketch or example (optional)
+      description: A drawing, a map layout, or how another game does it.
